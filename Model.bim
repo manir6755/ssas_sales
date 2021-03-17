@@ -1828,6 +1828,17 @@
         "toColumn": "DateKey"
       }
     ],
+    "roles": [
+      {
+        "name": "Role",
+        "members": [
+          {
+            "memberName": "Administrator",
+            "memberId": "S-1-5-21-2484494462-1318146886-1598524025-500"
+          }
+        ]
+      }
+    ],
     "annotations": [
       {
         "name": "ClientCompatibilityLevel",
