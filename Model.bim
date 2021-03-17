@@ -1821,6 +1821,13 @@
         "toTable": "DimEmployee",
         "toColumn": "EmployeeKey",
         "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "e8ec3d9d-592b-4c20-85ca-23193c5af0a5",
+        "fromTable": "DimProduct",
+        "fromColumn": "ProductSubcategoryKey",
+        "toTable": "DimProductCategory",
+        "toColumn": "ProductCategoryKey"
       }
     ],
     "roles": [
