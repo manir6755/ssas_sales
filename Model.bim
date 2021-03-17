@@ -1800,20 +1800,6 @@
         "toColumn": "GeographyKey"
       },
       {
-        "name": "85a21249-83d6-4765-9596-3e4446265bfe",
-        "fromTable": "DimProduct",
-        "fromColumn": "ProductSubcategoryKey",
-        "toTable": "DimProductSubcategory",
-        "toColumn": "ProductSubcategoryKey"
-      },
-      {
-        "name": "71efe61f-b64e-4dc1-8d35-a1890191bb5b",
-        "fromTable": "DimProductSubcategory",
-        "fromColumn": "ProductCategoryKey",
-        "toTable": "DimProductCategory",
-        "toColumn": "ProductCategoryKey"
-      },
-      {
         "name": "61da6f10-6728-4ae2-b556-cdf3a4018085",
         "fromTable": "FactInternetSales",
         "fromColumn": "CustomerKey",
@@ -1835,6 +1821,13 @@
         "toTable": "DimEmployee",
         "toColumn": "EmployeeKey",
         "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "e8ec3d9d-592b-4c20-85ca-23193c5af0a5",
+        "fromTable": "DimProduct",
+        "fromColumn": "ProductSubcategoryKey",
+        "toTable": "DimProductCategory",
+        "toColumn": "ProductCategoryKey"
       }
     ],
     "roles": [
@@ -1842,7 +1835,7 @@
         "name": "Role",
         "members": [
           {
-            "memberName": "Administrator",
+            "memberName": "BOSS2-VA\\Administrator",
             "memberId": "S-1-5-21-2484494462-1318146886-1598524025-500"
           }
         ]
