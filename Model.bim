@@ -1568,6 +1568,13 @@
         "fromColumn": "ProductCategoryKey",
         "toTable": "DimProductCategory",
         "toColumn": "ProductCategoryKey"
+      },
+      {
+        "name": "61da6f10-6728-4ae2-b556-cdf3a4018085",
+        "fromTable": "FactInternetSales",
+        "fromColumn": "CustomerKey",
+        "toTable": "DimCustomer 1",
+        "toColumn": "CustomerKey"
       }
     ],
     "annotations": [
