@@ -1582,6 +1582,13 @@
         "fromColumn": "DueDateKey",
         "toTable": "DimDate",
         "toColumn": "DateKey"
+      },
+      {
+        "name": "231b150e-c325-4ae3-a8e9-edee1c0e3be2",
+        "fromTable": "FactInternetSales",
+        "fromColumn": "ProductKey",
+        "toTable": "DimProduct",
+        "toColumn": "ProductKey"
       }
     ],
     "annotations": [
