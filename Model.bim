@@ -1575,6 +1575,13 @@
         "fromColumn": "CustomerKey",
         "toTable": "DimCustomer 1",
         "toColumn": "CustomerKey"
+      },
+      {
+        "name": "80db2cc0-c6e3-4bfd-9963-84f788dd77f9",
+        "fromTable": "FactInternetSales",
+        "fromColumn": "DueDateKey",
+        "toTable": "DimDate",
+        "toColumn": "DateKey"
       }
     ],
     "annotations": [
