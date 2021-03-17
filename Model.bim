@@ -1826,6 +1826,15 @@
         "fromColumn": "DueDateKey",
         "toTable": "DimDate",
         "toColumn": "DateKey"
+      },
+      {
+        "name": "96e9bbf6-a793-402f-a118-568c3c583e0c",
+        "fromCardinality": "one",
+        "fromTable": "DimCustomer 1",
+        "fromColumn": "CustomerKey",
+        "toTable": "DimEmployee",
+        "toColumn": "EmployeeKey",
+        "crossFilteringBehavior": "bothDirections"
       }
     ],
     "roles": [
